@@ -3,18 +3,21 @@ export const SKILLS = [
         title: "Frontend",
         icon: "./assets/images/frontend-icon.png",
         skills: [
-            { skill: "HTML5", percentage: "80%" },
-            { skill: "CSS3 (Sass/SCSS)", percentage: "90%" },
-            { skill: "JavaScript", percentage: "75%" },
-            { skill: "React.js", percentage: "80%" },
+            { skill: "HTML5", percentage: "90%" },
+            { skill: "CSS3", percentage: "80%" },
+            { skill: "JavaScript", percentage: "90%" },
+            { skill: "React JS", percentage: "80%" },
+            { skill: "Angular JS", percentage: "70%" },
+            { skill: "Redux Toolkit", percentage: "85%" },
         ],
     },
     {
         title: "Backend",
         icon: "./assets/images/backend-icon.png",
         skills: [
-            { skill: "Node.js", percentage: "70%" },
-            { skill: "Express.js", percentage: "65%" },
+            { skill: "Node.js", percentage: "80%" },
+            { skill: "Express.js", percentage: "75%" },
+            { skill: "MongoDB", percentage: "80%" }
         ],
     },
     {
@@ -31,42 +34,30 @@ export const SKILLS = [
         title: "Soft Skills",
         icon: "./assets/images/soft-skills-icon.png",
         skills: [
-            { skill: "Problem-solving", percentage: "80%" },
+            { skill: "Self-Learning", percentage: "90%" },
             { skill: "Collaboration", percentage: "85%" },
-            { skill: "Attention to Detail", percentage: "75%" },
+            { skill: "Teaching", percentage: "90%" },
         ],
     },
 ];
 
 export const WORK_EXPERIENCE = [
     {
-        title: "Senior Frontend Developer at Tech Innovators",
-        date: "January 2022 - Present",
+        title: "MERN Stack Intern at BETTER TOMORROW",
+        date: "June 2023 - July 2023",
         responsibilities: [
-            "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
-            "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-            "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
-            "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.",
-        ],
-    },
-    {
-        title: "Junior Web Developer at Digital Solution",
-        date: "June 2020 - December 2021",
-        responsibilities: [
-            "Developed and maintained client websites, ensuring high-quality standards and timely project delivery.",
-            "Implemented SEO best practices, leading to a 25% increase in organic search traffic for key clients.",
-            "Worked closely with the design team to create pixel-perfect, cross-browser-compatible web pages.",
+            "Independently crafted MERN stack applications, showcasing expertise in MongoDB, Express.js, React.js, and Node.js.",
+            "Implemented robust functionalities, elevating skills in full-stack development and contributing to individual project success.",
             "Conducted code reviews and mentored junior developers in adopting best coding practices.",
         ],
     },
     {
-        title: "Frontend Intern at Web Studio",
-        date: "May 2019 - August 2019",
+        title: "REACT JS Developer Intern at CODSOFT",
+        date: "December 2023 - January 2024",
         responsibilities: [
-            "Assisted in the development of a new e-commerce platform, contributing to the implementation of frontend features using React.js.",
-            "Conducted performance optimization tasks, resulting in a 15% improvement in page load times.",
-            "Participated in daily stand-up meetings and collaborated with senior developers to troubleshoot and resolve coding issues.",
-            "Gained hands-on experience with version control systems, specifically Git, in a collaborative development environment.",
+            "Developed three React projects (Task Tracker, Portfolio, Blog) demonstrating strong problemsolving and collaboration skills.",
+            "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+            "Proficient in React.js, state management, and project delivery.",
         ],
     },
 ];
